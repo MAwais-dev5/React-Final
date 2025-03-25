@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-function Hooks (){
-    const [downlight, SetDwonligth] =useState({firstName: " ", lastName: " "})
+function Lightdown (){
+    const [downlight, SetDwonligth] =useState({downlight})
     return(
    <div >
     <input 
@@ -11,4 +11,4 @@ function Hooks (){
    </div>
     )
 }
-export default 
+export default Lightdown
