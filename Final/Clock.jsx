@@ -17,5 +17,5 @@ function Clock(){
             <h2>It is {new Date().toLocaleTimeString()}.</h2>
             <button className="bg-[#000000] text-white p-2 rounded-lg" onClick={() => setCount(count + 1)}>Change Time</button>
         </div>
-    );
-    export default Clock
+    );}
+    export default Clock;
